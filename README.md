@@ -38,3 +38,5 @@
 ## Run App
 
 `python3 app.py`
+
+If possible, run within a jupyter notebook
