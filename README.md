@@ -1,6 +1,3 @@
-<!-- TODO: copy readme template -->
-# TicTacToe
-
 # Coding Assignment Tic Tac Toe Challenge
 
 
