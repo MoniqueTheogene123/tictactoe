@@ -1,4 +1,11 @@
 <!-- TODO: add functional requirements -->
 pandas>=2.3.3
 numpy>=2.3.3
+
 import os
+from matplotlib.patches import Circle
+
+import time
+time.sleep(3)
+
+jupyter==7.4.7
