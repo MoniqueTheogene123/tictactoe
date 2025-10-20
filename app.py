@@ -66,6 +66,21 @@ def main():
             print("Invalid move! Please try again.")
             continue
 
+        # Define check_winner params to win
+        def check_winner(board, current_player):
+            for row in range(3):
+                if board[row][0] == current_player and board[row][1] == current_player and board[row][2] == current_player:
+                    return True
+                
+            for row in range(3):
+                if board[0][col] == current_player and board[1][col] == current_player and board[2][col] == current_player:
+                    return True
+                
+            if board[0][0] == current_player and board[1][1] == current_player and board[2][2] == current_player:
+                return True
+            
+            return False        
+        
         
         # Check for win across diagnal row
         if check_winner(board, current_player):
