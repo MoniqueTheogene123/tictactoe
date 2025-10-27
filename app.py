@@ -67,15 +67,15 @@ def main():
             continue
 
         
-        # Check for win across diagnal row
-        if check_winner(board, current_player):
-            display_board(board)
-            print(f"\nPlayer {current_player} wins!")
-            game_over = True
-            
+    # Check for win across diagnal row
+    if check_winner(board, current_player):
+        display_board(board)
+        print(f"\nPlayer {current_player} wins!")
+        game_over = True    
             
         # Switch player
         current_player = 'O' if current_player == 'X' else 'X'
 #run game
+
 if __name__ == "__main__":
     main()
